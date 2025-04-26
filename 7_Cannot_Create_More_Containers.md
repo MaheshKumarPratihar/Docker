@@ -1,0 +1,2 @@
+- Remove unused images use ```docker rmi <image_names>```
+- ```docker system prune``` use this command to save space
