@@ -43,12 +43,12 @@ By default, Docker always tries to pull from `Docker Hub`.
 
 ### 1. First way (long way) - create + start + attach (see output)
 
-```Powershell, Bash
+```powershell
 docker container create
 ```
 
 Try to know more about the command:
-```Powershell, Bash 
+```powershell 
 docker container create --help
 ```
 
@@ -58,7 +58,7 @@ docker container create --help
 
 - Type below command in `Powershell` or `Bash` to **create the container** with `hello-world` image and it will give an `id` of the created container, similar to this  `7c295a0996573f83270a14063e043d8b7ec1d11f8b1a8030f222a0d1fb9cb3e5`
 
-    ```Powershell, Bash
+    ```powershell
     docker container create hello-world:linux
     ```
 
