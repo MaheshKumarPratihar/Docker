@@ -3,12 +3,13 @@
 |                |Virtual Machine                |Containers                   |
 |----------------|-------------------------------|-----------------------------|
 |1               | Virtualize Hardware      	 |Virtualizes OSs Kernels            |
-|2        		 | Runs on Hypervisor            |Runs on Container Runtime           |
-|3				 | Allow a lot of flexibility    |Do not emulate anything, no need for boot up|
-|4				 | Can take up a lot of space	 |No OS installation is required|
-|5				 | Require you to install/configure OS | Less space |
-|6				 | Can run multiple apps at the same time |	Can run only one app at a time (by design) |
-|7				 | Apps running on VM cannot see apps on the host| Can interact with their host |
+|2        	     | Runs on Hypervisor            |Runs on Container Runtime           |
+|3		     | Allow a lot of flexibility    |Do not emulate anything, no need for boot up|
+|4		     | Can take up a lot of space	 |No OS installation is required|
+|5		     | Require you to install/configure OS | Less space |
+|6		     | Can run multiple apps at the same time |	Can run only one app at a time (by design) |
+|7		     | Apps running on VM cannot see apps on the host| Can interact with their host |
+-------------------------------------------------------------------------------------------------
 
 > **Note**
 > 
